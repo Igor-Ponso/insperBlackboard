@@ -1,0 +1,40 @@
+section {
+  background-color: grey;
+  height: 100vh;
+}
+
+.header {
+  height: 80%;
+  color: #fff;
+}
+
+.bgGradient {
+  background-image: linear-gradient(
+      to right,
+      rgba(107, 129, 240, 0.6),
+      rgba(2, 2, 70, 0.4)
+    ),
+    url("/assets/img/smiling.png");
+  height: 100%;
+  background-size: cover;
+  background-position: right center;
+  background-repeat: no-repeat;
+  padding: 2rem;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 5rem;
+}
+
+.cardsContainer {
+  background: #fafafa;
+  height: 100%;
+}
+
+.card {
+  background-color: #fff;
+}
+
+.cardTemplate {
+}
