@@ -46,3 +46,8 @@ section {
   border-radius: 5px;
 }
 
+.content{
+  justify-content: center;
+  height: 100%;
+  display:flex;
+}
