@@ -1,12 +1,5 @@
 section {
-  background-color: #fafafa;
-  height: 100vh;
-}
-
-
-.header {
-  height: 80%;
-  color: #fff;
+  background-color: #f8f9fa
 }
 
 .bgGradient {
@@ -15,39 +8,97 @@ section {
       rgba(107, 129, 240, 0.6),
       rgba(2, 2, 70, 0.4)
     ),
-    url("/assets/img/smiling.png");
-  height: 100%;
+    url("../img/smiling.png");
+  height: 75vh;
   background-size: cover;
-  background-position: right center;
+  background-position: center;
   background-repeat: no-repeat;
+  color: #fff;
 }
 
 .title {
   font-weight: bold;
-  font-size: 5rem;
+  font-size: 3rem;
 }
 
 .subtitle{
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.author {
   font-size: 1.2rem;
 }
 
 .cardsContainer {
-  background: #fafafa;
-  height: 20%;
-  padding: 3rem;
+  padding: 2rem 2rem .5rem 2rem;
+  justify-content: space-around;
+  min-height: 25vh;
 }
 
-.card {
-  background-color: #fff;
+.cardArea .col-12{
+  margin-bottom: 1.5rem;
 }
 
 .cardTemplate {
   background: #ffffff;
   border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100%;
+  padding: 1rem;
 }
 
-.content{
+.cardTemplate svg{
+  color: #6b81f0;
+}
+
+.cardBody{
+  font-weight: bold;
+  text-align: center;
+}
+
+.header{
+  height: 10vh;
+}
+
+.content {
   justify-content: center;
+  min-height: 90vh;
+  display: flex;
+  padding: 1rem 3rem 3rem 3rem
+}
+
+.card{
   height: 100%;
-  display:flex;
+}
+
+.card-body{
+  padding: 2rem;
+  background-color: #f8f9fa;
+  height: auto;
+}
+
+.card-img-top{
+  height: 80%;
+}
+
+.dualBox{
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  padding: 5rem 3rem
+}
+
+.dualBox > div{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.imgLeft{
+  flex-direction: row-reverse;
 }
