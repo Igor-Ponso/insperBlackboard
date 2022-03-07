@@ -45,6 +45,10 @@ section {
   min-height: 25vh !important;
 }
 
+.insperCssReseter .cardsContainer a{
+  text-decoration: none !important;
+  color: #000
+}
 .insperCssReseter .cardArea .col-12 {
   margin-bottom: 1.5rem !important;
 }
