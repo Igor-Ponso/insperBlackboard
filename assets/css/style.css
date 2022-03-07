@@ -2,6 +2,15 @@ section {
   background-color: #f8f9fa;
 }
 
+.insperCssReseter span {
+  display: block;
+  margin-bottom: 0.8rem;
+}
+
+.contextMenuContainer {
+  display: none !important;
+}
+
 .insperCssReseter .bgGradient {
   background-image: linear-gradient(
       to right,
@@ -29,8 +38,6 @@ section {
 .insperCssReseter .author {
   font-size: 1.2rem !important;
 }
-
-
 
 .insperCssReseter .cardsContainer {
   padding: 2rem 2rem 0.5rem 2rem !important;
