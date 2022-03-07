@@ -1,3 +1,8 @@
+*{
+  scroll-behavior: smooth !important;
+}
+
+
 section {
   background-color: #f8f9fa;
 }
@@ -62,6 +67,7 @@ section {
   align-items: center !important;
   height: 100% !important;
   padding: 1rem !important;
+  cursor: pointer !important;
 }
 
 .insperCssReseter .cardTemplate svg {
