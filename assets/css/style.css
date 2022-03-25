@@ -1,7 +1,6 @@
-*{
+* {
   scroll-behavior: smooth !important;
 }
-
 
 section {
   background-color: #f8f9fa;
@@ -23,7 +22,7 @@ section {
       rgba(2, 2, 70, 0.4)
     ),
     url("../img/smiling.png") !important;
-  height: 75vh !important;
+  height: 65vh !important;
   background-size: cover !important;
   background-position: center !important;
   background-repeat: no-repeat !important;
@@ -45,17 +44,14 @@ section {
 }
 
 .insperCssReseter .cardsContainer {
-  padding: 2rem 2rem 0.5rem 2rem !important;
+  padding: 2rem 9rem !important;
   justify-content: space-around !important;
-  min-height: 25vh !important;
+  min-height: 23vh !important;
 }
 
-.insperCssReseter .cardsContainer a{
+.insperCssReseter .cardsContainer a {
   text-decoration: none !important;
-  color: #000
-}
-.insperCssReseter .cardArea .col-12 {
-  margin-bottom: 1.5rem !important;
+  color: #000;
 }
 
 .insperCssReseter .cardTemplate {
@@ -85,13 +81,9 @@ section {
 
 .insperCssReseter .content {
   justify-content: center !important;
-  min-height: 90vh !important;
+  /* min-height: 90vh !important; */
   display: flex !important;
   padding: 1rem 3rem 3rem 3rem;
-}
-
-.insperCssReseter .card {
-  height: 100% !important;
 }
 
 .insperCssReseter .card-body {
@@ -101,11 +93,11 @@ section {
 }
 
 .insperCssReseter .card-img-top {
-  height: 80% !important;
+  height: 25rem !important;
+  width: 100vw !important;
 }
 
 .insperCssReseter .dualBox {
-  min-height: 100vh !important;
   align-items: center !important;
   justify-content: center !important;
   padding: 5rem 3rem;
@@ -119,4 +111,32 @@ section {
 
 .insperCssReseter .imgLeft {
   flex-direction: row-reverse !important;
+}
+
+#containerdiv {
+  max-width: max-content !important;
+}
+
+#contentPanel {
+  overflow: auto;
+}
+
+#audioPlayer {
+  height: 350px;
+  background: rgb(116, 9, 121);
+  background: linear-gradient(
+    90deg,
+    rgba(116, 9, 121, 0.8491771708683473) 34%,
+    rgba(0, 212, 255, 0.76234243697479) 100%
+  );
+  color: #ffffff;
+}
+
+.player {
+  background: rgba(46, 213, 46, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(9px);
+  -webkit-backdrop-filter: blur(9px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
 }
