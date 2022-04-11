@@ -1,5 +1,6 @@
 * {
   scroll-behavior: smooth !important;
+  font-family: Verdana;
 }
 
 section {
@@ -18,8 +19,8 @@ section {
 .insperCssReseter .bgGradient {
   background-image: linear-gradient(
       to right,
-      rgba(107, 129, 240, 0.6),
-      rgba(2, 2, 70, 0.4)
+      rgba(196, 22, 28, 0.7),
+      rgba(166, 43, 77, 0.5)
     ),
     url("../img/smiling.png") !important;
   height: 65vh !important;
@@ -67,7 +68,7 @@ section {
 }
 
 .insperCssReseter .cardTemplate svg {
-  color: #6b81f0 !important;
+  color: #ee2a5d !important;
 }
 
 .insperCssReseter .cardBody {
@@ -126,14 +127,30 @@ section {
   background: rgb(116, 9, 121);
   background: linear-gradient(
     90deg,
-    rgba(116, 9, 121, 0.8491771708683473) 34%,
-    rgba(0, 212, 255, 0.76234243697479) 100%
+    rgba(238, 42, 93, 0.8491771708683473) 34%,
+    rgba(60, 191, 174, 0.76234243697479) 100%
   );
   color: #ffffff;
 }
 
+#forum {
+  background-color: #faa61a;
+  color: #fff;
+}
+
+.btn-primary {
+  border: none;
+  background-color: #e6e7e8;
+  color: #000;
+}
+
+.btn-primary:hover {
+  background-color: #bcbec0;
+  color: #fff;
+}
+
 .player {
-  background: rgba(46, 213, 46, 0.25);
+  background: rgba(245, 130, 32, 0.25);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   backdrop-filter: blur(9px);
   -webkit-backdrop-filter: blur(9px);
