@@ -10,6 +10,14 @@ table.bouncer {
   border-bottom: none !important;
 }
 
+.topTabs{
+  height: 10vh !important;
+}
+
+.contentList > li:first-child, .contentList > li.read:first-child:hover{
+  border: none !important;
+}
+
 .pageTitle {
   display: none;
 }
@@ -39,7 +47,7 @@ table.bouncer {
 }
 
 .contentList .details {
-  height: 100vh;
+  height: 90vh;
   padding: 0;
   margin: 0;
   border: none;
